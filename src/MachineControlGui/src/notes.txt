@@ -1,0 +1,29 @@
+connections
+
+GND - WHITE
+VIN - BLACK
+RX  - RED
+TX  - GREEN
+RST - YELOW 24
+ERR - BLUE 25
+
+resetPin1 22
+errorPin1 23
+
+resetPin2 24
+errorPin2 25
+
+
+
+Command protocol
+
+Command_id, param, param, ...
+
+
+0 - reset
+1 - move
+2 - break move
+3 - get status
+
+
+
